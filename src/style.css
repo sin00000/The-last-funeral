@@ -1,0 +1,31 @@
+body {
+
+    line-height: 1.6;
+    margin: 40px;
+}
+
+body.blue-theme {
+    background-color: black;
+    color: white;
+    line-height: 1.6;
+    margin: 40px;
+}
+
+body.a {
+    background-color: black;
+    color: white;
+    line-height: 15;
+    margin: 40px;
+    font-size: 23px;
+}
+
+body.b {
+    background-color: rgb(240, 240, 243);
+    line-height: 1.5;
+    margin: 0px;
+}
+
+body.c {
+    line-height: 2.9;
+    font-size: 30px;
+}
