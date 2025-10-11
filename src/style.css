@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
 body {
 
     line-height: 1.6;
     margin: 40px;
     font-size: large;
+    font-family: 'Nanum Myeongjo';
 }
 
 body.blue-theme {
