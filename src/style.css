@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moirai+One&display=swap');
 
 body {
 
@@ -6,6 +7,7 @@ body {
     margin: 40px;
     font-size: large;
     font-family: 'Nanum Myeongjo';
+    font-weight: 700;
 }
 
 body.blue-theme {
@@ -23,7 +25,9 @@ body.a {
 }
 
 body.b {
-    background-color: rgb(240, 240, 243);
+    background-color: rgb(246, 246, 248);
+    position: relative;
+    align-content: center;
     line-height: 1.5;
     margin: 0px;
 }
@@ -50,4 +54,66 @@ body.c {
     width: 150px;
     position: absolute;
     top: 10px
+}
+
+
+
+#a1 {
+
+    text-decoration: none;
+    font-family: "Moirai One", system-ui;
+    color: inherit;
+
+}
+
+#a1:hover {
+    color: white;
+}
+
+#a2 {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+#a2:hover {
+    color: red;
+}
+
+#last {
+    color: rgb(218, 217, 217);
+}
+
+#b {
+    color: slategray;
+
+}
+
+body.d {
+    background-color: mediumblue;
+    color: white;
+    line-height: 1.6;
+    margin: 40px;
+}
+
+#a3 {
+    text-decoration: none;
+    color: inherit
+}
+
+#last {
+    animation: erase 20s
+}
+
+@keyframes erase {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+#snow {
+    color: black;
 }
