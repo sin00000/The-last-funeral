@@ -101,12 +101,16 @@ body.d {
 }
 
 #last {
-    animation: erase 20s
+    animation: erase 60s
 }
 
 @keyframes erase {
     0% {
         opacity: 1;
+    }
+
+    30% {
+        opacity: 0;
     }
 
     100% {
