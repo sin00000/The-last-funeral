@@ -2,13 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Moirai+One&display=swap');
 
 body {
-
     line-height: 1.6;
-    margin: 40px;
+    padding: 10px;
     font-size: large;
     font-family: 'Nanum Myeongjo';
     font-weight: 700;
+    box-sizing: border-box;
 }
+
+body.w {
+    line-height: 1.6;
+    margin: 40px;
+}
+
 
 body.blue-theme {
     background-color: black;
@@ -29,25 +35,53 @@ body.b {
     position: relative;
     align-content: center;
     line-height: 1.5;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+body.b img {
+    width: 100%;
+    max-width: 100vw;
+    height: auto;
+    display: block;
+    margin: 0;
 }
 
 body.c {
     line-height: 2.9;
     font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 #name {
-    width: 50vh;
-    position: absolute;
-    top: 30%;
+    width: 100%;
+    max-width: 100vw;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 #name2 {
-    width: 30vh;
-    position: absolute;
-    justify-content: center;
-
+    width: 70%;
+    max-width: 70vw;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
 }
 
 #bi {
@@ -70,9 +104,10 @@ body.c {
     color: white;
 }
 
+
 #a2 {
     text-decoration: none;
-    color: cornflowerblue;
+    color: rgb(147, 151, 165);
 }
 
 #a2:hover {
